@@ -2,8 +2,8 @@
 set -e
 
 { \
-        echo "rpcuser=${RPC_USER}" ;\
-        echo "rpcpassword=${RPC_PASSWORD}" ;\
+        echo "rpcuser=${RPC_USER:-microbitcoin}" ;\
+        echo "rpcpassword=${RPC_PASSWORD:-secret}" ;\
         echo "txindex=1" ; \
         echo "server=1" ; \
         echo "rpcallowip=0.0.0.0" ; \
