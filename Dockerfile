@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:16.04
 
 LABEL "vendor"="Tarun Singhal"
 LABEL "vendor.url"="http://www.tarunsinghal.me"
